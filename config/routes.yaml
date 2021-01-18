@@ -22,3 +22,13 @@ formReceive:
 liste:
     path: /liste
     controller: App\Controller\HelloWorldController::liste
+
+createCake:
+    path: /cake
+    controller: App\Controller\CakeController::createCake
+
+getById:
+    path: /cake
+    controller: App\Controller\CakeController::getById
+    methods: GET
+
